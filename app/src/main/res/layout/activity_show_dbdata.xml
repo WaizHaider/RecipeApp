@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowDBData"
+    android:background="@drawable/bg_splash">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_bold"
+            android:padding="@dimen/_10sdp"
+            android:text="SQL Database Recipes"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp" />
+
+        <TextView
+            android:id="@+id/meal"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:textColor="@color/black"
+            android:layout_marginTop="90dp"
+            android:text="Meal\n"
+            android:layout_marginStart="80dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/drinks"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:text="Drink\n"
+            android:textColor="@color/black"
+            android:layout_below="@+id/meal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="80dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/areas"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:text="Area\n"
+            android:textColor="@color/black"
+            android:layout_below="@+id/drinks"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="80dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/instructions"
+            android:layout_width="230dp"
+            android:text="Instructions\n"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:textColor="@color/black"
+            android:layout_below="@+id/areas"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="80dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/mealthumbs"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:textColor="@color/black"
+            android:text="MealThumb\n"
+            android:layout_below="@+id/instructions"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="80dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tagss"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:textColor="@color/black"
+            android:layout_below="@+id/mealthumbs"
+            android:layout_marginTop="10dp"
+            android:text="Tag\n"
+            android:layout_marginStart="80dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/youtubes"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:textColor="@color/black"
+            android:layout_below="@+id/tagss"
+            android:layout_marginTop="10dp"
+            android:text="Youtube\n"
+            android:layout_marginStart="80dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ingrediants"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:textColor="@color/black"
+            android:layout_below="@+id/youtubes"
+            android:layout_marginTop="10dp"
+            android:text="Ingrediants\n"
+            android:layout_marginStart="80dp">
+
+        </TextView>
+
+    <Button
+        android:id="@+id/backto"
+        android:layout_width="150sp"
+        android:layout_gravity="center"
+        android:layout_below="@id/ingrediants"
+        android:text="Back to Main"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="120dp"
+        android:background="@color/yellow"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
